@@ -25,15 +25,6 @@ The site needs no API key. Without AI, the research desk returns matching record
 
 Visitors who have an Anthropic API key can turn on AI from the **AI** button at the top right. The key is stored only in their own browser and sent directly to Anthropic. It never touches this repository or the server.
 
-## Deploy
-
-It's a single static page with no build step and no dependencies.
-
-1. Push this folder to a GitHub repository.
-2. In Vercel, choose **Add New → Project** and import the repository.
-3. Leave the framework as **Other** and click **Deploy**. `vercel.json` already points Vercel at the `public` folder.
-
-To preview locally, open `public/index.html` in a browser.
 
 ## Data
 
